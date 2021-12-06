@@ -1,6 +1,16 @@
-
-<div *ngFor="let transferencia of transferencias">
-  <p>Data: {{ transferencia?.data }}</p>
-  <p>Valor: {{ transferencia?.valor }}</p>
-  <p>Destino: {{ transferencia?.destino }}</p>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th>Valor</th>
+      <th>Destino</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let transferencia of transferencias">
+      <td>{{transferencia.data | date: 'dd/MM/yyyy'}}</td>
+      <td>{{transferencia.valor | currency: 'BRL'}}</td>
+      <td>{{transferencia.destino}}</td>
+    </tr>
+  </tbody>
+</table>
