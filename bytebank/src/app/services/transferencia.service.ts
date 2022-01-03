@@ -7,6 +7,7 @@ import { Injectable } from '@angular/core';
 export class TransferenciaService {
 
   private listaTransferencia: any[];
+  private url = 'http://localhost:3000/transferencias';
 
   constructor(private httpClient: HttpClient) {
     this.listaTransferencia = [];
