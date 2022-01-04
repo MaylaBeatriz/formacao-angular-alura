@@ -1,1 +1,1 @@
-# angular_2_curso
+Projeto GatitoBook, rede social para amantes de animais.
