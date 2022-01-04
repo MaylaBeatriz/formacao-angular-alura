@@ -1,1 +1,1 @@
-Projeto feito na formação de Angular da plataforma Alura.
+Projetos feitos na formação de Angular da plataforma Alura.
