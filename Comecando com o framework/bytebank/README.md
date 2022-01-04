@@ -1,3 +1,1 @@
-# Bytebank
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+Projeto Bytebank, colocamos a quantidade de dinheiro que queremos trasnferir e qual a conta de destino, e é mostrado no extrato as informações da transferência.
